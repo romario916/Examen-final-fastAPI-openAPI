@@ -1,0 +1,20 @@
+openapi: 3.0.0
+info:
+  title: STD24035
+  version: 1.0.0
+paths:
+  /hello:
+    get:
+      summary: STD24035
+      description: This is a specification of STD24035
+      responses:
+        '200':
+          description: REPONSE avec mon reference
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: romario
